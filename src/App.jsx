@@ -38,9 +38,11 @@ function App() {
 
   return (
     <>
+    <div>
     <Header />
     <Resultado resultado={resultado} classificacao={classificacao} />
     <Formulario altura={altura} setAltura={setAltura} peso={peso} setPeso={setPeso} calcularIMC={calcularIMC} />
+    </div>
     </>
   )
 }
